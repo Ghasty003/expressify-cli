@@ -30,5 +30,10 @@
   "bugs": {
     "url": "https://github.com/Ghasty003/expressify-cli/issues"
   },
-  "homepage": "https://github.com/Ghasty003/expressify-cli#readme"
+  "homepage": "https://github.com/Ghasty003/expressify-cli#readme",
+  "devDependencies": {
+    "@types/figlet": "^1.5.6",
+    "@types/gradient-string": "^1.1.2",
+    "@types/inquirer": "^9.0.3"
+  }
 }
