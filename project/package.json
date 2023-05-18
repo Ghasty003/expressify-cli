@@ -1,0 +1,35 @@
+{
+  "name": "expressify",
+  "version": "1.0.0",
+  "description": "Minimalistic CLI tool that helps to boilerplate express.js project",
+  "main": "./dist/index.js",
+  "type": "module",
+  "bin": {
+    "expressify": "./dist/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^10.0.1",
+    "figlet": "^1.6.0",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.2.3",
+    "lazycookie": "^0.0.1",
+    "nanospinner": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ghasty003/expressify-cli.git"
+  },
+  "keywords": [
+    "CLI",
+    "Express"
+  ],
+  "author": "Ghasty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ghasty003/expressify-cli/issues"
+  },
+  "homepage": "https://github.com/Ghasty003/expressify-cli#readme"
+}
