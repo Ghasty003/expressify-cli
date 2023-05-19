@@ -8,3 +8,14 @@ export async function stack() {
     });
     return answer.stack_name;
 }
+export async function addCors() {
+    const answer = await inquirer.prompt({
+        name: "cors",
+        type: "input",
+        message: "Would you love to add `cors`? (y/n)",
+        default() {
+            return "y";
+        }
+    });
+    return answer.cors;
+}
