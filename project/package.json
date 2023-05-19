@@ -8,14 +8,15 @@
     "expressify": "./dist/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node ./dist/index.js create bla"
   },
   "dependencies": {
     "commander": "^10.0.1",
     "figlet": "^1.6.0",
     "gradient-string": "^2.0.2",
     "inquirer": "^9.2.3",
-    "nanospinner": "^1.1.0"
+    "nanospinner": "^1.1.0",
+    "ts-node": "^10.9.1"
   },
   "repository": {
     "type": "git",
@@ -34,7 +35,6 @@
   "devDependencies": {
     "@types/figlet": "^1.5.6",
     "@types/gradient-string": "^1.1.2",
-    "@types/inquirer": "^9.0.3",
-    "ts-node": "^10.9.1"
+    "@types/inquirer": "^9.0.3"
   }
 }

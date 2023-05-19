@@ -9,7 +9,7 @@ const commander = new Command();
 commander
   .command("create <project-name>")
   .description("Create a new project")
-  .action(async (projectName) => {
+  .action(async (projectName: string) => {
     const stackName = await stack();
 
     if (stackName === "JavaScript") {
