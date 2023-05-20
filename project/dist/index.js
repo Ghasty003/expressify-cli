@@ -7,10 +7,15 @@ commander
   .command("create <project-name>")
   .description("Create a new project")
   .action(async (projectName) => {
-    const stackName = await stack();
-    if (stackName === "JavaScript") {
-      // console.log(process.argv);
-      handleJavaScript(projectName);
+    try {
+      const stackName = await stack();
+      if (stackName === "JavaScript") {
+        // console.log(process.argv);
+        handleJavaScript(projectName);
+      }
+    } catch (error) {
+      const e = error;
+      console.log(`${e.message}, ${e.cause}`);
     }
   });
 commander.parse(process.argv);
