@@ -1,5 +1,5 @@
 {
-  "name": "expressify",
+  "name": "expressify-cli",
   "version": "1.0.0",
   "description": "Minimalistic CLI tool that helps to boilerplate express.js project",
   "main": "./dist/index.js",
