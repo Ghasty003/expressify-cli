@@ -10,9 +10,10 @@ commander
     try {
       const stackName = await stack();
       if (stackName === "JavaScript") {
-        // console.log(process.argv);
         handleJavaScript(projectName);
+        return;
       }
+      console.log("Feature coming soon..");
     } catch (error) {
       const e = error;
       console.log(`${e.message}, ${e.cause}`);
