@@ -1,6 +1,6 @@
 {
   "name": "expressify-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimalistic CLI tool that helps to boilerplate express.js project",
   "main": "./dist/index.js",
   "type": "module",
@@ -24,7 +24,10 @@
   },
   "keywords": [
     "CLI",
-    "Express"
+    "Express",
+    "Mongoose",
+    "express-mongoose",
+    "express-cli"
   ],
   "author": "Ghasty",
   "license": "MIT",
