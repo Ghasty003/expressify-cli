@@ -10,7 +10,7 @@ async function handleJavaScript(projectName: string) {
   let versions: string[];
   const addcors = await addCors();
 
-  let versionSpinner = createSpinner("fetching project dependencies...").start();
+  let versionSpinner = createSpinner("fetching project dependencies versions...").start();
   
   try {
     versions = await getDependenciesVersion();
