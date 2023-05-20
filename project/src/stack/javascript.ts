@@ -27,7 +27,7 @@ async function handleJavaScript(projectName: string) {
 
   } catch (error) {
     versionSpinner.error({ text: "Error fetching dependencies verion."});
-    console.log(error);
+    throw error;
   }
 }
 
