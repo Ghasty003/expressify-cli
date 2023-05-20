@@ -20,8 +20,9 @@ export async function getDependenciesVersion(): Promise<string[]> {
         data.forEach(d => versions.push(d["dist-tags"].latest));
 
     } catch (error) {
+        const e = error as Error;
         controller.abort();
-        console.log(error);
+       throw new Error(e.message);
     }
 
     return versions;

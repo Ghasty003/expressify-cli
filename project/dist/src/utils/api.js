@@ -14,8 +14,9 @@ export async function getDependenciesVersion() {
         data.forEach(d => versions.push(d["dist-tags"].latest));
     }
     catch (error) {
+        const e = error;
         controller.abort();
-        console.log(error);
+        throw new Error(e.message);
     }
     return versions;
 }
