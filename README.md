@@ -24,4 +24,4 @@ https://github.com/Ghasty003/Lazy-Cookie/assets/85039185/04a8867e-47f5-4dd2-ad13
 <p>Incase of error, please refer to the issue tab.</p>
 
 ## License
-<p>express-cli is licensed under MIT.</p
+<p>expressify-cli is licensed under MIT.</p
