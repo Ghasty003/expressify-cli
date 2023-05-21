@@ -20,8 +20,8 @@ expressify create <project-name>
 https://github.com/Ghasty003/Lazy-Cookie/assets/85039185/04a8867e-47f5-4dd2-ad13-c6024582ac22
 
 # Contributing
-<p>Any contributions is welcomed.</p>
+<p>Any contribution is welcomed.</p>
 <p>Incase of error, please refer to the issue tab.</p>
 
-## Licence
-<p>express-cli is licence under MIT.</p
+## License
+<p>express-cli is licensed under MIT.</p
