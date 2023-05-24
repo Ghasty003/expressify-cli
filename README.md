@@ -1,4 +1,7 @@
 # expressify-cli
+
+[![npm downloads](https://img.shields.io/npm/dt/expressify-cli.svg?label=npm%20download)](https://www.npmjs.com/package/expressify-cli)
+
 Minimalistic command line tool that helps to boilerplates express.js + mongoose project.
 
 ### project still in progress.
